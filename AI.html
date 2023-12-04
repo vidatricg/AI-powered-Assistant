@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    
+        background-image: url(./technology.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+        width: auto;
+}
+
+header {
+    background-color:skyblue;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#chatbox {
+    border: 1px solid #ccc;
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+#userInput {
+    margin-top: 20px;
+    padding: 5px;
+    
+}
+
+#userMsg {
+    width: 280px;
+    padding: 5px;
+}
+
+#sendBtn {
+    background-color: #13c7a0;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI-Powered Personal Assistant</h1>
+    </header>
+    <main>
+        <div id="chatbox">
+            <ul id="chatlog"></ul>
+            <div id="userInput">
+                <input type="text" id="userMsg" placeholder="Type your message...">
+                <button id="sendBtn">Send</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+</body>
+</html>
